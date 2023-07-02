@@ -10,7 +10,7 @@ const ingredients = [
 const ingredientsContainerEl = document.querySelector(`ul`);
 
 const elements = ingredients.map(ingredient => {
-  const ingredientEl = document.createElement(`li`);
+  const ingredientEl = document.createElement(`ul`);
   ingredientEl.classList.add(`item`);
   ingredientEl.textContent = ingredient;
 
